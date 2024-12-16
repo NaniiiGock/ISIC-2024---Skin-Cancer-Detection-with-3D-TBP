@@ -36,13 +36,13 @@ This repository contains the implementation for our Machine learning project, [*
 
 ### Tabular Data
 
-- [**Preprocessing Techniques**](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/data_analysis.ipynb)
+- [**Preprocessing Techniques**](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/XGBoost_Tabular.ipynb)
   - Handling Missing Values: Imputation (e.g., mean filling) for numerical features.
   - Categorical Features: One-hot encoding for variables like sex and lesion location.
   - Normalization: Scaling features to ensure balanced contributions.
   - Feature Selection: Correlation matrix and PCA for dimensionality reduction.
   - Balancing Classes: Applied **SMOTE** and **ADASYN** to oversample malignant cases.
-- [**Models Explored**](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/data_analysis.ipynb)
+- [**Models Explored**](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/XGBoost_Tabular.ipynb)
   - Random Forest, Extra Trees, XGBoost, and LightGBM.
   - LightGBM and XGBoost achieved the best results.
 - [**Optimization**](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/Xgboost%20and%20LGBM%20model%20fine%20tuning.ipynb)
@@ -75,9 +75,11 @@ Combined predictions from tabular and image models for better overall performanc
 
 ### Method
 
-- method 1
-- method 2
-- method 3
+- Arithmetic Mean
+- Geometric Mean
+- Soft Voting
+- Stacking
+- Bagging
 
 ## Evaluation
 
