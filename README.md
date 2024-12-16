@@ -56,7 +56,7 @@ This repository contains the implementation for our Machine learning project, [*
   - Hair Removal: Used the [**DullRazor algorithm**](https://github.com/BlueDokk/Dullrazor-algorithm) to remove hair artifacts.
   - Image Resizing: All images resized to 224x224 pixels to ensure uniform input.
   - Data Augmentation: 1. Random horizontal and vertical flips. 2. Random resized cropping.
-  - Normalization: Applied ImageNet mean and standard deviation values to match pre-trained model requirements.
+  - Normalization: Applied mean and standard deviation values to match pre-trained model requirements.
 
 - **Models Explored**
 
