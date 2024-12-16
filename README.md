@@ -8,8 +8,9 @@
   - Tabular Data
   - Image Data
   - Ensemble Models
-- Results
 - Evaluation
+- Results
+
 
 ## Project Overview
 
@@ -28,8 +29,8 @@ This repository contains the implementation for our Machine learning project, [*
   - [SIIM-ISIC 2020 Dataset](https://www.kaggle.com/c/siim-isic-melanoma-classification/overview)
 
 ### Data Distribution
-
-400666 benign samples and 393 malignant samples. Malignant cases are significantly underrepresented.
+- Malignant cases are significantly underrepresented.
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/target_value_distribution.png" alt="target value distribution" width="600">
 
 ## Methodology
 
@@ -52,7 +53,7 @@ This repository contains the implementation for our Machine learning project, [*
 
 - **Preprocessing Techniques**
 
-  - Hair Removal: Used the **DullRazor algorithm** to remove hair artifacts.
+  - Hair Removal: Used the [**DullRazor algorithm**](https://github.com/BlueDokk/Dullrazor-algorithm) to remove hair artifacts.
   - Image Resizing: All images resized to 224x224 pixels to ensure uniform input.
   - Data Augmentation: 1. Random horizontal and vertical flips. 2. Random resized cropping.
   - Normalization: Applied ImageNet mean and standard deviation values to match pre-trained model requirements.
@@ -60,7 +61,7 @@ This repository contains the implementation for our Machine learning project, [*
 - **Models Explored**
 
   - MobileNet
-  - Vision Transformer (ViT)
+  - [Vision Transformer (ViT)](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/vit_final_version.py)
 
 - **Cross-validation**
 
@@ -78,21 +79,26 @@ Combined predictions from tabular and image models for better overall performanc
 - method 2
 - method 3
 
-## Results
-
-### Tabular Models
-
-- Best model: XGBoost
-- Baseline Accuracy: 0.16436 (private score) and 0.14243 (public score).
-
-### Image Models
-
-### Ensemble Models
-
 ## Evaluation
 
 - **Metric**: Partial Area Under the ROC Curve (pAUC) above an 80% True Positive Rate (TPR). Hence, scores range from [0.0, 0.2].
+
 - **Implementation**: [ISIC pAUC above TPR](https://www.kaggle.com/code/metric/isic-pauc-abovetpr)
+
+## Results
+
+### Tabular Models
+- Best model: XGBoost
+- Results on Kaggle Submission
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Tabular%20Model%20Comparison.png" alt="Tabular Model Comparison" width="600">
+
+### Image Models
+- ViT Training Result
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/vit_model_training_results.png" alt="ViT model training result" width="1000">
+- MobileNet
+
+### Ensemble Models
+
 
 
 
