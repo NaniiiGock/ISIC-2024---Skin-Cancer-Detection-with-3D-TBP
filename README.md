@@ -53,7 +53,7 @@ This repository contains the implementation for our Machine learning project, [*
 
 - **Preprocessing Techniques**
 
-  - Hair Removal: Used the [**DullRazor algorithm**](https://github.com/BlueDokk/Dullrazor-algorithm) to remove hair artifacts.
+  - Hair Removal: Used the [**DullRazor Algorithm**](https://github.com/BlueDokk/Dullrazor-algorithm) to remove hair artifacts.
   - Image Resizing: All images resized to 224x224 pixels to ensure uniform input.
   - Data Augmentation: 1. Random horizontal and vertical flips. 2. Random resized cropping.
   - Normalization: Applied mean and standard deviation values to match pre-trained model requirements.
@@ -95,9 +95,9 @@ Combined predictions from tabular and image models for better overall performanc
 <img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Tabular%20Model%20Comparison.png" alt="Tabular Model Comparison" width="600">
 
 ### Image Models
-- ViT Training Result
-<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/vit_model_training_results.png" alt="ViT model training result" width="1000">
-- MobileNet
+- Results on Kaggle Submission
+
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Image%20Model%20Comparison.png" alt="Image Model Comparison" width="600">
 
 ### Ensemble Models
 
