@@ -60,7 +60,7 @@ This repository contains the implementation for our Machine learning project, [*
 
 - **Models Explored**
 
-  - MobileNet
+  - [MobileNet](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/MOBILENET.ipynb)
   - [Vision Transformer (ViT)](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/vit_final_version.py)
 
 - **Cross-validation**
