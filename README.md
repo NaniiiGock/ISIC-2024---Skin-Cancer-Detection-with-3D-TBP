@@ -95,12 +95,11 @@ Combined predictions from tabular and image models for better overall performanc
 <img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Tabular%20Model%20Comparison.png" alt="Tabular Model Comparison" width="600">
 
 ### Image Models
-- Results on Kaggle Submission
 
 <img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Image%20Model%20Comparison.png" alt="Image Model Comparison" width="600">
 
 ### Ensemble Models
-<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/ensemble_model.png" alt="Ensemble Model" width="600">
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/ensemble%20model.png" alt="Ensemble Model" width="600">
 
 
 
