@@ -69,7 +69,7 @@ This repository contains the implementation for our Machine learning project, [*
 
 
 
-## Ensemble Models
+## [Ensemble Models](https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/src/4models-final-ensemble.ipynb)
 
 Combined predictions from tabular and image models for better overall performance.
 
@@ -90,7 +90,7 @@ Combined predictions from tabular and image models for better overall performanc
 ## Results
 
 ### Tabular Models
-- Best model: XGBoost
+- Best Model: XGBoost
 - Results on Kaggle Submission
 <img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Tabular%20Model%20Comparison.png" alt="Tabular Model Comparison" width="600">
 
@@ -100,6 +100,7 @@ Combined predictions from tabular and image models for better overall performanc
 <img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/Image%20Model%20Comparison.png" alt="Image Model Comparison" width="600">
 
 ### Ensemble Models
+<img src="https://github.com/NaniiiGock/ISIC-2024---Skin-Cancer-Detection-with-3D-TBP/blob/main/results/ensemble_model.png" alt="Ensemble Model" width="600">
 
 
 
